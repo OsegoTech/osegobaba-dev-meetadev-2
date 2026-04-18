@@ -5,17 +5,44 @@ Created by Alex for your MeetaDev assignment.
 ```bash
 git checkout assignment/week-1-day-1-slug
 ```
-# List files in the current directory
-ls
+/* Reset some default browser styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
 
-# Move into the Documents directory
-cd Documents
+/* Style a container */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
 
-# Create a new directory called "my_project"
-mkdir my_project
+/* Header styling */
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
 
-# Move into the new directory
-cd my_project
+/* Paragraph styling */
+p {
+  line-height: 1.6;
+  color: #333;
+}
 
-# Confirm you're inside it and see contents
-ls
+/* Button styling */
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
